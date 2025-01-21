@@ -33,9 +33,37 @@ function App() {
         <div className='footer'>
           <div className='address'>
             <h1>Contact us</h1>
-            <p>Email : shristimahato6054@gmail.com</p>
-            <p>Phone : +977 9817538939</p>
-            <p>Address : Kathmandu, putalisadak</p>
+            <p>Email : shristimahato6054@gmail.com
+            <br/>Phone : +977 9817538939
+            <br/>Address : Kathmandu, putalisadak</p>
+          </div>
+          <div className='about'>
+            <h1>About Us</h1>
+            <p>We are a team dedicated to providing the best products <br/>and services to our customers.</p>
+          </div>
+          <div className='quick-links'>
+            <h1>Quick Links</h1>
+            <ul>
+              <li><Link to ='/'>Home</Link></li>
+              <li><Link to ='/about'>About</Link></li>
+              <li><Link to = '/gallery'>Gallery</Link></li>
+              <li><Link to = '/contact'>Contact</Link></li>
+            </ul>
+          </div>
+          <div className='social-icons'>
+            <h1>Social Platforms</h1>
+            <div className='facebook'>
+              <p>facebook</p>
+            </div>
+            <div className='twitter'>
+              <p>Twitter</p>
+            </div>
+            <div className='youtube'>
+              <p>Youtube</p>
+            </div>
+            <div className='insta'>
+              <p>Instagram</p>
+            </div>
           </div>
         </div>
       </div>

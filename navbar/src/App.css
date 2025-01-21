@@ -69,3 +69,11 @@
 h1{
   font-size: 1.5rem;
 }
+
+/* footer */
+.footer{
+  margin:0;
+  display:flex;
+  justify-content: space-between;
+  background-color: #5bc55b;
+}
