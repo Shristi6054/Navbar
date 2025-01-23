@@ -4,6 +4,10 @@ import Home from './Home';
 import About from './About';
 import Gallery from './Gallery';
 import Contact from './Contact';
+import { FaFacebook } from 'react-icons/fa';
+import { FaTwitter } from 'react-icons/fa';
+import { FaYoutube } from 'react-icons/fa';
+import { FaInstagram } from 'react-icons/fa';
 
 function App() {
   return (
@@ -43,7 +47,7 @@ function App() {
           </div>
           <div className='quick-links'>
             <h1>Quick Links</h1>
-            <ul>
+            <ul className='links'>
               <li><Link to ='/'>Home</Link></li>
               <li><Link to ='/about'>About</Link></li>
               <li><Link to = '/gallery'>Gallery</Link></li>
@@ -52,17 +56,19 @@ function App() {
           </div>
           <div className='social-icons'>
             <h1>Social Platforms</h1>
+            <div className='foot-icons'>
             <div className='facebook'>
-              <p>facebook</p>
+              <FaFacebook/>
             </div>
             <div className='twitter'>
-              <p>Twitter</p>
+              <FaTwitter/>
             </div>
             <div className='youtube'>
-              <p>Youtube</p>
+              <FaYoutube/>
             </div>
             <div className='insta'>
-              <p>Instagram</p>
+              <FaInstagram/>
+            </div>
             </div>
           </div>
         </div>
